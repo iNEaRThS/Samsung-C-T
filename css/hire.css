@@ -1,0 +1,210 @@
+@import url(common.css);
+@import url(header_footer.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+/* Section */
+section{
+  width: 100%;
+}
+section .seciton_in{
+  width: 1400px;
+}
+section{
+  width: 100%;
+}
+#top_bg{
+  position: relative;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+}
+#top_bg>img{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#top_bg .top_bg_in{
+  width: 100%;
+  height: 900px;
+}
+#top_bg .top_bg_text{
+  width: 100%;
+  height: 900px;
+  background: rgba(0,0,0,0.5);
+  margin: 0 auto;
+  position: absolute;
+}
+#top_bg .top_bg_text h2{
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  margin-top: 180px;
+}
+#top_bg .top_bg_text h3{
+  text-align: center;
+  font-size: 140px;
+  margin-top: 100px;
+  color: #fff;
+  font-family: 'Nanum Brush Script', cursive;
+}
+#top_bg .top_bg_text h4{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+}
+#contents .contents_in{
+  width: 1400px;
+  height: 1400px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  position: relative;
+}
+#contents .contents_in .samsung{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  border: 2px solid #999;
+  left: 550px;
+  top: 300px;
+}
+#contents .contents_in .samsung p:nth-child(1){
+  text-align: center;
+  color: #999;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#contents .contents_in .samsung h6{
+  color: #999;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+#contents .contents_in .samsung p:nth-child(3){
+  width: 250px;
+  height: 40px;
+  border: 2px solid #0c4da2;
+  margin-top: 40px;
+  margin-left: 20px;
+  color: #0c4da2;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.5s;
+}
+#contents .contents_in .samsung p:nth-child(3):hover{
+  background: #0c4da2;
+  color: #fff;
+}
+#contents .contents_in .young{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  border: 2px solid #999;
+  left: 550px;
+  top: 700px;
+}
+#contents .contents_in .young p:nth-child(1){
+  text-align: center;
+  color: #999;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#contents .contents_in .young h6{
+  color: #999;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+#contents .contents_in .young p:nth-child(3){
+  width: 250px;
+  height: 40px;
+  border: 2px solid #0c4da2;
+  margin-top: 40px;
+  margin-left: 20px;
+  color: #0c4da2;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.5s;
+}
+#contents .contents_in .young p:nth-child(3):hover{
+  background: #0c4da2;
+  color: #fff;
+}
+#contents .contents_in>h5{
+  font-size: 36px;
+  color: #0c4da2;
+  text-align: center;
+  margin-top: 40px;
+}
+#contents .contents_in>h6{
+  font-size: 26px;
+  color: #0c4da2;
+  text-align: center;
+  margin-top: 20px;
+}
+#contents .contents_in .process_left{
+  width: 700px;
+  margin-top: 50px;
+  float: left;
+}
+#contents .contents_in .process_left h3{
+  text-align: center;
+  font-size: 30px;
+  color: #0c4da2;
+}
+#contents .contents_in .process_left .new_level{
+  width: 200px;
+  height: 100px;
+  border: 3px solid #0c4da2;
+  margin-left: 250px;
+}
+#contents .contents_in .process_left h1{
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+}
+#contents .contents_in .process_left p{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 18px;
+}
+#contents .contents_in .level_line{
+  width: 2px;
+  height: 100px;
+  background: #0c4da2;
+  margin-left: 350px;
+}
+#contents .contents_in .first{
+  margin-top: 50px;
+}
+#contents .contents_in .process_right{
+  width: 700px;
+  float: right;
+  margin-top: 50px;
+}
+#contents .contents_in .process_right .old_level{
+  width: 200px;
+  height: 100px;
+  border: 3px solid #0c4da2;
+  margin-left: 250px;
+}
+#contents .contents_in .process_right h1{
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+}
+#contents .contents_in .process_right h3{
+  text-align: center;
+  font-size: 30px;
+  color: #0c4da2;
+}
+#contents .contents_in .process_right p{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 18px;
+}
